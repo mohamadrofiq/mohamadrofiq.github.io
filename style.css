@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  background-image: linear-gradient(90deg, #521dbde0, #0058f0d8);
+  backdrop-filter: blur(2px);
+}
+
+.jumbotron {
+  padding-top: 6.3rem;
+  background-image: linear-gradient(180deg, #0692e33d, #521dbdbd), url(img/bg3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  box-sizing: border-box;
+}
+
+.wave {
+  bottom: 10px;
+}
+.wave-about {
+  background-image: linear-gradient(90deg, #521dbd34, #401dbd34);
+  transform: scale(1, -1);
+  top: -20px;
+}
+
+.img-about {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+#project {
+  background-image: linear-gradient(90deg, #521dbd34, #401dbd34);
+  margin-top: 0;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.bg1 {
+  z-index: 0;
+}
+.bg2 {
+  padding-top: -200px;
+  z-index: 0;
+}
